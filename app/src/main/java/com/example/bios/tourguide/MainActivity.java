@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentPagerApabter.addFragment(AboutFragment.getInstance(),"About");
         fragmentPagerApabter.addFragment(new EltahrirFragment(),"El Tahrir");
         fragmentPagerApabter.addFragment(new AlazharFragment(),"Alazhar");
+        fragmentPagerApabter.addFragment(new ThePyramidsFragment(),"Pyramids");
         viewPager.setAdapter(fragmentPagerApabter);
         tabLayout.setupWithViewPager(viewPager);
     }

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/egypt_cairo_pyramids_of_giza_and_camels_2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPlur"
+                android:text="Pyramids of giza"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPlur"
+                android:text="The ancient Egyptians built Giza pyramids as tombs for the pharaohs and their queens. They believed that when a pharaoh died he became Osiris, the king of the dead. They believed that for the dead pharaoh to carry out his duties as king of the dead his ka. Then they mummified their bodies and keep things that they will need them in the afterlife. It Known as ‘mr’ or ‘mir’ by the Egyptians. It starts to build During the third and fourth dynasties of the Old Kingdom, more than 4,000 years later. There are many different shapes and sizes from before the beginning of the Old Kingdom to the end of the Middle Kingdom. It Built during a time when Egypt was one of the richest and most powerful civilizations in the world. there are about 100 pyramids have been discovered in Egypt."
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pictures"
+                android:background="@color/colorPlur"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/private_tour_giza_pyramids_and_sphinx_in_cairo_124917"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/pyramids_of_giza"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/egypt_pyramids_of_giza_great_pyramid_with_tomb_of_senegemib_inti_in_front"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
