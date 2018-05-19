@@ -41,7 +41,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Location  "
+                    android:text="@string/location"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Near the head of the Nile River delta, Egypt; northeastern Africa"
+                    android:text="@string/near_the_head_of_the_nile_river_delta_egypt_northeastern_africa"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Time Zone  "
+                    android:text="@string/time_zone"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -66,7 +66,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2 pm Cairo time = noon Greenwich Mean Time (GMT)"
+                    android:text="@string/_2_pm_cairo_time_noon_greenwich_mean_time_gmt"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
@@ -75,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Elevation  "
+                    android:text="@string/elevation"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="194 m (636 ft)"
+                    android:text="@string/_194_m_636_ft"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
@@ -92,7 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Latitude and Longitude  "
+                    android:text="@string/latitude_and_longitude"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -100,7 +100,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="43°40'N, 79°22'W"
+                    android:text="@string/_43_40_n_79_22_w"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Climate  "
+                    android:text="@string/climate"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -117,7 +117,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Desert climate, with hot summers and mild winters; rain is rare, and hamsin dust storms can occur in the spring."
+                    android:text="@string/desert_climate_with_hot_summers_and_mild_winters_rain_is_rare_and_hamsin_dust_storms_can_occur_in_the_spring"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
@@ -126,7 +126,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Monetary Units "
+                    android:text="@string/monetary_units"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="24sp" />
@@ -134,7 +134,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" Egyptian pounds"
+                    android:text="@string/egyptian_pounds"
                     android:textAlignment="center"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />

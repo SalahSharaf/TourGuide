@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         viewPager = findViewById(R.id.viewPager);
         tabLayout = findViewById(R.id.tabs);
-        MyFragmentPagerApabter fragmentPagerApabter=new MyFragmentPagerApabter(getSupportFragmentManager());
-        fragmentPagerApabter.addFragment(AboutFragment.getInstance(),"About");
-        fragmentPagerApabter.addFragment(new EltahrirFragment(),"El Tahrir");
-        fragmentPagerApabter.addFragment(new AlazharFragment(),"Alazhar");
-        fragmentPagerApabter.addFragment(new ThePyramidsFragment(),"Pyramids");
+        MyFragmentPagerApabter fragmentPagerApabter=new MyFragmentPagerApabter(this);
+        fragmentPagerApabter.addFragment("About");
+        fragmentPagerApabter.addFragment("El Tahrir");
+        fragmentPagerApabter.addFragment("Alazhar");
+        fragmentPagerApabter.addFragment("Pyramids");
         viewPager.setAdapter(fragmentPagerApabter);
         tabLayout.setupWithViewPager(viewPager);
     }

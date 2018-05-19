@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+    <string name="location">Location</string>
+    <string name="near_the_head_of_the_nile_river_delta_egypt_northeastern_africa">Near the head of the Nile River delta, Egypt; northeastern Africa</string>
+    <string name="time_zone">Time Zone</string>
+    <string name="_2_pm_cairo_time_noon_greenwich_mean_time_gmt">2 pm Cairo time = noon Greenwich Mean Time (GMT)</string>
+    <string name="elevation">Elevation</string>
+    <string name="_194_m_636_ft">194 m (636 ft)</string>
+    <string name="latitude_and_longitude">Latitude and Longitude</string>
+    <string name="_43_40_n_79_22_w">43°40\'N, 79°22\'W</string>
+    <string name="climate">Climate</string>
+    <string name="desert_climate_with_hot_summers_and_mild_winters_rain_is_rare_and_hamsin_dust_storms_can_occur_in_the_spring">Desert climate, with hot summers and mild winters; rain is rare, and hamsin dust storms can occur in the spring.</string>
+    <string name="monetary_units">Monetary Units</string>
+    <string name="egyptian_pounds">Egyptian pounds</string>
+    <string name="pictures">Pictures</string>
 </resources>
