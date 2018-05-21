@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 @SuppressLint("ValidFragment")
@@ -32,14 +33,11 @@ public class ThePyramidsFragment extends Fragment {
         ImageView picture1,picture2,picture3,background;
         basic=view.findViewById(R.id.basic);
         content=view.findViewById(R.id.content);
-        picture1=view.findViewById(R.id.picture1);
-        picture2=view.findViewById(R.id.picture2);
-        picture3=view.findViewById(R.id.picture3);
+        ListView listView=view.findViewById(R.id.listview);
+        ListViewAdapter adapter=new ListViewAdapter(getContext(),fragmentModel.getResources());
+        listView.setAdapter(adapter);
         basic.setText(fragmentModel.getPageText());
         content.setText(fragmentModel.getContent());
-        picture1.setImageResource(fragmentModel.getImageView1());
-        picture2.setImageResource(fragmentModel.getImageView2());
-        picture3.setImageResource(fragmentModel.getImageView3());
         background=view.findViewById(R.id.background);
         background.setImageResource(fragmentModel.getBackground());
 

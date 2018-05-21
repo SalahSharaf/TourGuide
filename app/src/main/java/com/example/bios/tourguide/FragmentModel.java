@@ -1,17 +1,26 @@
 package com.example.bios.tourguide;
 
+import java.util.ArrayList;
+
 public class FragmentModel {
     String pageText;
     String content;
-    int imageView1, imageView2, imageView3, background;
+    int background;
+    ArrayList<Integer> resources;
 
-    public FragmentModel(String pageText, String content, int imageView1, int imageView2, int imageView3, int background) {
+    public FragmentModel(String pageText, String content, ArrayList<Integer> resources, int background) {
         this.pageText = pageText;
         this.content = content;
-        this.imageView1 = imageView1;
-        this.imageView2 = imageView2;
-        this.imageView3 = imageView3;
+        this.resources = resources;
         this.background = background;
+    }
+
+    public ArrayList<Integer> getResources() {
+        return resources;
+    }
+
+    public void setResources(ArrayList<Integer> resources) {
+        this.resources = resources;
     }
 
     public int getBackground() {
@@ -38,27 +47,4 @@ public class FragmentModel {
         this.content = content;
     }
 
-    public int getImageView1() {
-        return imageView1;
-    }
-
-    public void setImageView1(int imageView1) {
-        this.imageView1 = imageView1;
-    }
-
-    public int getImageView2() {
-        return imageView2;
-    }
-
-    public void setImageView2(int imageView2) {
-        this.imageView2 = imageView2;
-    }
-
-    public int getImageView3() {
-        return imageView3;
-    }
-
-    public void setImageView3(int imageView3) {
-        this.imageView3 = imageView3;
-    }
 }
