@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 @SuppressLint("ValidFragment")
 public class ThePyramidsFragment extends Fragment {
     FragmentModel fragmentModel;
@@ -28,18 +30,12 @@ public class ThePyramidsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.thepyramidsfragment_layout,null);
-        TextView basic,content;
-        ImageView picture1,picture2,picture3,background;
-        basic=view.findViewById(R.id.basic);
-        content=view.findViewById(R.id.content);
+        View view=inflater.inflate(R.layout.listview,null);
         ListView listView=view.findViewById(R.id.listview);
-        ListViewAdapter adapter=new ListViewAdapter(getContext(),fragmentModel.getResources());
+        ArrayList<Attraction> attractions=new ArrayList<>();
+        attractions.add(new Attraction(fragmentModel.getBackground(),fragmentModel.getResources(),fragmentModel.getPageText(),fragmentModel.getContent()));
+        ListViewAdapter adapter=new ListViewAdapter(getContext(),attractions);
         listView.setAdapter(adapter);
-        basic.setText(fragmentModel.getPageText());
-        content.setText(fragmentModel.getContent());
-        background=view.findViewById(R.id.background);
-        background.setImageResource(fragmentModel.getBackground());
 
         return view;
     }
